@@ -10,7 +10,7 @@ import javax.persistence.OneToMany;
 
 @Entity
 @Access(AccessType.PROPERTY)
-public class Memer extends Actor {
+public class Member extends Actor {
 
 	public Collection<Enrolment>	enrolments;
 	public Collection<Request>		requests;
