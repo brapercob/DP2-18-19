@@ -13,7 +13,7 @@ import javax.persistence.OneToOne;
 
 @Entity
 @Access(AccessType.PROPERTY)
-public class Broderhood extends Actor {
+public class Brotherhood extends Actor {
 
 	public String					title;
 	public Date						date;
