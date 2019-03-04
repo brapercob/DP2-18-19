@@ -67,4 +67,8 @@ public class BrotherhoodService {
 		return brotherhood;
 	}
 
+	public Brotherhood findByUsserAccountId(final int id) {
+		return this.findByUsserAccountId(id);
+	}
+
 }
