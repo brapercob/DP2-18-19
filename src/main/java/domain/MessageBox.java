@@ -12,7 +12,7 @@ import org.hibernate.validator.constraints.NotBlank;
 
 @Entity
 @Access(AccessType.PROPERTY)
-public class Box extends DomainEntity {
+public class MessageBox extends DomainEntity {
 	
 	private String name;
 	private Boolean defaultBox;
