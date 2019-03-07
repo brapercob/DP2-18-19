@@ -26,7 +26,7 @@ public interface FinderRepository extends JpaRepository<Finder, Integer>{
     //public Collection<Task> filterTasksByMaxPrice(Double maxPrice);
 
     //@Query("select t from Task t where t.maxPrice>=?1 and t.endDate>CURRENT_DATE")
-    public Collection<Task> filterTasksByMinPrice(Double minPrice);
+    //public Collection<Task> filterTasksByMinPrice(Double minPrice);
 
     @Query("select p from Procession p")
     public Collection<Procession> getAllProcession();
