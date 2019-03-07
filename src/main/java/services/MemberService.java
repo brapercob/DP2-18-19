@@ -67,4 +67,8 @@ public class MemberService {
 		return member;
 	}
 
+	public Member findByUsserAccountId(final int id) {
+		return this.findByUsserAccountId(id);
+	}
+
 }

@@ -72,4 +72,8 @@ public class AdminService {
 		return admin;
 	}
 
+	public Admin findByUsserAccountId(final int id) {
+		return this.adminRepository.findByUserAccountId(id);
+	}
+
 }
