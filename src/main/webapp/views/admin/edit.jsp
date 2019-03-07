@@ -89,8 +89,9 @@
 			value="<spring:message code="admin.save" />"/>
 	<input type="submit" name="delete" 
 			value="<spring:message code="admin.delete" />" />
-	<input type="submit" name="cancel" 
-			value="<spring:message code="admin.cancel" />" />
+	<input type="button" name="cancel" 
+			value="<spring:message code="admin.cancel" />" onclick="javascript:
+					relativeRedir('admin/list.do');" />
 
 </form:form>
 
